@@ -1,0 +1,7 @@
+{
+  "name": "Loan Management App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

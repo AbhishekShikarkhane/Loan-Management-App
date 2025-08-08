@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* App-specific styles */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #111827; /* gray-900 */
+}
+
+/* Layout styles */
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #111827;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #1e293b;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.sidebar-collapsed {
+  width: 70px;
+}
+
+.main-content {
+  flex: 1;
+  background-color: #111827;
+}
+
+/* Dashboard styles */
+.stats-card {
+  background-color: #1f2937; /* gray-800 */
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 1.5rem;
+}
+
+/* Form styles */
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: #1f2937;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Dark mode transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
